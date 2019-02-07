@@ -101,8 +101,8 @@ main {
 
 .container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  /*grid-template-rows: auto auto auto auto;*/
   justify-content: center;
   align-items: flex-start;
   grid-column-gap: 2%;
@@ -115,7 +115,7 @@ img {
 
 }
 
-.tallpic {
+/*.tallpic {
   grid-row-start: 2;
   grid-row-end: 4;
 }
@@ -125,9 +125,9 @@ img {
 }
 #perupic {
   align-self: flex-end;
-}
+}*/
 
-/* styling using flex instead of grid
+ /*styling using flex instead of grid
 .container {
   display: flex;
   flex-direction: row;
