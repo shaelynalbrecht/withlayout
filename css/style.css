@@ -22,6 +22,8 @@ nav a {
   padding-left: 1%;
   padding-right: 1%;
   padding-bottom: 2%;
+  display: block;
+  text-align: center;
 }
 
 nav a:hover{
@@ -46,9 +48,9 @@ nav a:hover{
 
 body{
   /*min-height: 100%;*/
-  display: grid;
+  /*display: grid;
   grid-template-rows: 0fr 0fr 6fr auto;
-  align-items: flex-start;
+  align-items: flex-start;*/
   /*flex-direction: column;*/
   background: #ffffff;
   color: #3c006f;
@@ -149,6 +151,8 @@ img {
 
 footer {
   background: #f599c0;
+  height: auto;
+  width: 100vw;
   min-height: 5%;
 	padding-bottom: 20vh;
   position: relative;
