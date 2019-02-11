@@ -190,6 +190,14 @@ footer {
   background-color: #eddce3;
 }
 
+.wuts_baton > h2 {
+  font-size: 250%;
+}
+
 .baton_horiz {
   width: 100%;
+}
+
+.wuts_baton h3, .wuts_baton p {
+  margin-left: 5%;
 }
